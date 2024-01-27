@@ -1,55 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8">
 
-<!--    COMP 7780
+<head>
+	<meta charset="utf-8">
+
+	<!--    COMP 7780
 	Author: Hans Yip
 	Date:  09/01/2022
 -->
-<title>Assignment1 product</title>
+	<title>Assignment 1</title>
 
-<style type="text/css">
-	.center { display: block; margin-left: auto; margin-right: auto; }		
-</style>
+	<style type="text/css">
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			object-fit: cover;
+		}
 
+		.button {
+			border: 0;
+			line-height: 2.5;
+			padding: 0 20px;
+			font-size: 1rem;
+			text-align: center;
+			color: #fff;
+			text-shadow: 1px 1px 1px #000;
+			border-radius: 10px;
+			background-color: rgba(0, 220, 0, 1);
+			background-image: linear-gradient(to top left,
+					rgba(0, 0, 0, 0.2),
+					rgba(0, 0, 0, 0.2) 30%,
+					rgba(0, 0, 0, 0));
+			box-shadow:
+				inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+				inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+			margin: 10px
+		}
+
+		.button:hover {
+			background-color: rgba(0, 255, 0, 1);
+		}
+
+		.button:active {
+			box-shadow:
+				inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+				inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+		}
+
+		p {
+			margin: 10px 0;
+			padding: 5px;
+			border: 1px solid #999;
+		}
+
+		table,
+		td {
+			border: 1px solid #333;
+		}
+
+		thead,
+		tfoot {
+			background-color: #333;
+			color: #fff;
+		}
+
+		.pic {
+			width: 480px;
+			height: 360px;
+			object-fit: cover;
+		}
+
+		td {
+			min-width: 100px;
+		}
+	</style>
+	<!-- <link href="form.css" rel="stylesheet" type="text/css"> -->
 </head>
 
 <body>
-<header>
-	<img src="logo.png" class="center" width="300" height="100">
-	<h1 style="background-color:#0052cc; color:#ffffff; text-align:center">COMP 7780 Special Topics in Knowledge and Information Management <br>
-	Team no. 00, Team Name: HKBU team</h1>
-	<img src="cs_logo.png" width="300" height="200" class="center">
-</header>
+	<header>
+		<img src="https://www.comp.hkbu.edu.hk/v1/revamp/images/logo_650.svg" class="center">
+		<h1 style="background-color:#0052cc; color:#ffffff; text-align:center">COMP 7780 Special Topics in Knowledge and
+			Information Management <br>
+			Team no. 00, Team Name: HKBU team</h1>
+		<!-- <img src="https://www.comp.hkbu.edu.hk/~mobiapp/201920/images/dept_logo_set-13.png" class="center" height="96"
+					width="400"> -->
+	</header>
 
-<section>
+	<section class="center">
 
-	<article>
-		<h3>GreenWorld! Online Shop</h3>
-		<p>Our goal is to promote "Green Environment" by re-cycling the items that you no longer need or use and sell them to the public
-			for a discounted price.</p>
-		<p> All sales Final - No refund or exchange. </p>
-		<p> Once we received your payment, we will contact you for delivery.</p>
-	</article>
+		<article>
+			<h1>XXXXXX Online Shop</h1>
+			<p>Our goal is to promote "Green Environment" by re-cycling the items that you no longer need or use and
+				sell them to the public
+				for a discounted price.<br>
+				All sales Final - No refund or exchange.<br>
+				Once we received your payment, we will contact you for delivery.</p>
+		</article>
 
-	<h1>Products for sale!</h1>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="3">Products for sale!</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Product 1</td>
+					<td>$2.98</td>
+					<td><img src="https://www.dmoe.cc/random.php" class="pic"></td>
+				</tr>
 
-	<table border="2">
-	<tr><th>Product</th><th>Unit Price</th><th>Remarks</th></tr>
+				<tr>
+					<td>Product 2</td>
+					<td>$4.50</td>
+					<td><img src="https://www.dmoe.cc/random.php" class="pic"></td>
+				</tr>
 
-	<tr><td>Product 1</td><td>$2.98</td><td></td></tr>
+				<tr>
+					<td>Product 3</td>
+					<td>$9.98</td>
+					<td><img src="https://www.dmoe.cc/random.php" class="pic"></td>
+				</tr>
+			</tbody>
+		</table>
 
-	<tr><td>Product 2</td><td>$4.50</td><td></td></tr>
 
-	<tr><td>Product 3</td><td>$9.98</td><td></td></tr>
+		<!-- <p><a href="comp7780_product.html">Ready to Order, Click here!</a></p> -->
+		<a href="comp7780_home.html"><button class="button" type="button">Back to Homepage</button></a>
 
-	</table>
+	</section>
 
-</section>
-
-<footer>
-	<p><img src="enews1.jpg" alt="hkbu Logo"> Contact me: hansyip@comp.hkbu.edu.hk</p>
-</footer>
+	<footer>
+		<p><img src="https://www.rcpe.ac.uk/sites/default/files/yourlogo.png" alt="hkbu Logo"><br> Contact me:
+			hansyip@comp.hkbu.edu.hk</p>
+	</footer>
 
 </body>
+
 </html>
