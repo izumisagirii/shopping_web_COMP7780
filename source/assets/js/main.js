@@ -36,6 +36,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader() {
     const header = document.getElementById('header')
+    // console.log(header)
     // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
     if (this.scrollY >= 80) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
@@ -53,9 +54,15 @@ function scrollActive() {
             sectionId = current.getAttribute('id')
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+            const ret = document.querySelector('.nav__item a[href*=' + sectionId + ']')
+            if (ret) {
+                // console.log(sectionId)
+                ret.classList.add('active-link')
+            }
         } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            const ret = document.querySelector('.nav__item a[href*=' + sectionId + ']')
+            if (ret)
+                ret.classList.remove('active-link')
         }
     })
 }
