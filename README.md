@@ -1,6 +1,6 @@
 ## What
-this is our group project  
-team H2O  
+This is our group project  
+Team H2O  
 HKBU comp7780 2024 Spring  
 
 ## How
