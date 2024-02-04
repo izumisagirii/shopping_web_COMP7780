@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "name": "maotai",
+            "fullname": "Kweichow Moutai (贵州茅台)",
+            "price": 5200,
+            "disc": "Kweichow Moutai is a brand of baijiu, a clear distilled liquor made from sorghum and wheat. It is produced in the town of Maotai in Guizhou province, and is considered the national liquor of China. Kweichow Moutai has a complex and aromatic flavor, with notes of soy sauce, nuts, and fruits. It has an alcohol content of 53%, and is usually served in small glasses and drunk neat. Kweichow Moutai is often used for official occasions, such as state banquets and diplomatic events.",
+            "picture": "product1.png"
+        },
+        {
+            "name": "neh",
+            "fullname": "Shaoxing Nuerhong (绍兴女儿红)",
+            "price": 1350,
+            "disc": "Shaoxing Nuerhong is a type of huangjiu, a fermented rice wine that has a golden or amber color. It is produced in the city of Shaoxing in Zhejiang province, and is named after a traditional wedding gift for brides. Shaoxing Nuerhong has a mild and sweet taste, with an alcohol content of 16%. It can be drunk warm or cold, and is often used in cooking, medicine, and ceremonies. Shaoxing Nuerhong is one of the most famous varieties of huangjiu, and has a history of over 2000 years.",
+            "picture": "product2.png"
+        },
+        {
+            "name": "gl3h",
+            "fullname": "Guilin Sanhua Wine (桂林三花酒)",
+            "price": 450,
+            "disc": "Sanhua Jiu is a type of mijiu, a sweet rice wine that is similar to Japanese sake. It is made by fermenting glutinous rice with yeast and water, and is flavored with three kinds of flowers: osmanthus, jasmine, and rose. It is produced in the city of Guilin in Guangxi province, and is known for its fragrant and refreshing taste. It has an alcohol content of 12%, and can be enjoyed hot or cold, plain or flavored. Guilin Sanhua Jiu is a popular drink for breakfast or dessert, as well as for its health benefits, such as improving blood circulation and digestion.",
+            "picture": "product3.png"
+        },
+        {
+            "name": "sb",
+            "fullname": "Snow Beer (雪花啤酒)",
+            "price": 65,
+            "disc": "Snow Beer is a brand of beer that is produced by China Resources Snow Breweries, a joint venture between China Resources Enterprise and SABMiller. It is the best-selling beer brand in China, and the third best-selling beer brand in the world. Snow Beer has a light and crisp taste, with an alcohol content of 4%. It is widely available and affordable, and is often consumed by young people and in urban areas. Snow Beer is also known for its innovative marketing campaigns, such as sponsoring the 2008 Beijing Olympics and launching a series of limited-edition cans featuring Chinese celebrities.",
+            "picture": "product4.png"
+        },
+        {
+            "name": "zy",
+            "fullname": "Changyu Cabernet Sauvignon Dry Red Wine (张裕赤霞珠干红葡萄酒)",
+            "price": 3600,
+            "disc": "Changyu Cabernet Sauvignon Dry Red Wine is a product of Changyu Pioneer Wine Company, the oldest and largest winery in China. It is made from Cabernet Sauvignon grapes grown in the Yantai region of Shandong province, and is aged in oak barrels for at least six months. It has a ruby red color, and a rich and fruity flavor, with hints of vanilla, chocolate, and spices. It has an alcohol content of 12%, and can be paired with various dishes, such as beef, lamb, cheese, and pasta. Changyu Cabernet Sauvignon Dry Red Wine is one of the most popular and award-winning wines in China, and has been exported to over 70 countries.",
+            "picture": "product5.png"
+        },
+        {
+            "name": "qk",
+            "fullname": "Qingke Wine (青稞酒)",
+            "price": 138,
+            "disc": "Qingke Jiu is a type of highland barley wine that is produced and consumed by the Tibetan people. It is made from fermented highland barley, a staple crop that grows in the high-altitude regions of Tibet. Qingke Jiu has a milky white color, and a sour and slightly sweet taste. It has a low alcohol content of 3-5%, and is usually served in wooden bowls and drunk with a straw. Qingke Jiu is a traditional and cultural drink for the Tibetan people, and is often offered to guests and deities as a sign of respect and hospitality.",
+            "picture": "product6.png"
+        }
+    ]
+}
