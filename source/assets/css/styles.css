@@ -508,7 +508,7 @@ the website, in dark theme
 
 /*=============== PRODUCTS ===============*/
 .product__description {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .product__container {
