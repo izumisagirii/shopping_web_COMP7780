@@ -6,3 +6,6 @@ HKBU comp7780 2024 Spring
 ## How
 Native shopping web with html+css+js  
 3rd: remixicon, jquery, scrollreveal  
+
+## Web
+Avaliable on [github.io](https://www.izumisagirii.github.io)
