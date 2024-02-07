@@ -8,4 +8,4 @@ Native shopping web with html+css+js
 3rd: remixicon, jquery, scrollreveal  
 
 ## Web
-Avaliable on [github.io](https://www.izumisagirii.github.io)
+Avaliable on [github.io](https://izumisagirii.github.io)
