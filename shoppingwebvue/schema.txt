@@ -1,0 +1,41 @@
+ 'comp7780.customer'
+
++-------------------+-------------+------+-----+---------+----------------+
+| Field             | Type        | Null | Key | Default | Extra          |
++-------------------+-------------+------+-----+---------+----------------+
+| cust_id           | int(11)     | NO   | PRI | NULL    | auto_increment |
+| cust_username     | varchar(20) | NO   |     | NULL    |                |
+| cust_password     | varchar(64) | YES  |     | NULL    |                |
+| cust_email        | varchar(20) | NO   |     | NULL    |                |
+| cust_name         | varchar(20) | NO   |     | NULL    |                |
+| cust_phone        | varchar(12) | YES  |     | NULL    |                |
+| cust_credit_limit | float       | NO   |     | NULL    |                |
++-------------------+-------------+------+-----+---------+----------------+
+7 rows in set (0.000 sec)
+
+
+
+ 'comp7780.product'
++--------------+-------------+------+-----+---------+----------------+
+| Field        | Type        | Null | Key | Default | Extra          |
++--------------+-------------+------+-----+---------+----------------+
+| prod_id      | int(11)     | NO   | PRI | NULL    | auto_increment |
+| prod_desc    | varchar(20) | NO   |     | NULL    |                |
+| prod_on_hand | int(11)     | NO   |     | NULL    |                |
+| supplier_id  | int(11)     | NO   |     | NULL    |                |
++--------------+-------------+------+-----+---------+----------------+
+4 rows in set (0.001 sec)
+
+
+'comp7780.cart'
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| cust_username   | varchar(20) | NO   |     | NULL    |       |
+| cart_order_date | date        | YES  |     | NULL    |       |
+| prod_id         | int(11)     | NO   |     | NULL    |       |
+| cart_qty        | int(11)     | NO   |     | NULL    |       |
+| cart_price      | float       | NO   |     | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+5 rows in set (0.000 sec)
+

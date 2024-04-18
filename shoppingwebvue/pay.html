@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Payment</title>
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=ATSWa9vavLRPYABa5DAFOb7d6xFXlYIfpC4eE0ML-fo4wvxD7MhswAQkklI625Mqnbudf6psDaPUC5mj"></script>
+</head>
+
+<body>
+    <!-- Display the pending payment amount -->
+    <div id="pending-amount-display" style="margin: 20px;">
+        <h2>Pending Payment Amount: <span id="amount"></span> HKD</h2>
+    </div>
+
+    <div id="paypal-button-container"></div>
+
+    <script>
+        // Parse the URL parameter to get the totalAmount
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+                if (pair[0] === variable) {
+                    return decodeURIComponent(pair[1]);
+                }
+            }
+            return false;
+        }
+
+        const totalAmount = getQueryVariable('totalAmount');
+        document.getElementById('amount').textContent = totalAmount; // Set the amount in the HTML
+
+
+        const localUser = getQueryVariable('localUser');
+
+
+        paypal.Buttons({
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: totalAmount // Use the parsed totalAmount here
+                        }
+                    }]
+                });
+            },
+            onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                    alert('Transaction completed by ' + details.payer.name.given_name);
+                    fetch(`/api/cart/${localUser}`, {
+                        method: 'DELETE'
+                    })
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Failed to clear cart.');
+                            }
+                        })
+                        .catch(error => console.error('Error:', error));
+
+                    window.opener.location.reload();
+                    window.close();
+                });
+            }
+        }).render('#paypal-button-container');
+    </script>
+
+</html>
