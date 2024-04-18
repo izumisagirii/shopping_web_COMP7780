@@ -1,5 +1,16 @@
 # shoppingweb 7780
 The sample code is fuckingly difficult to read and maintain. I rewrote it using the separation of front and back ends.
+## Project Setup
+
+To get the project up and running, follow these steps:
+
+```sh
+cd ./shoppingwebvue
+npm install
+npm start
+```
+
+This will install all the necessary dependencies and start the development server and back-end server for the ShoppingWeb application.
 
 ## Highlights
 - **Backend Refactoring**: Achieved a clean separation of concerns by refactoring the backend, enhancing maintainability and scalability.
@@ -18,17 +29,6 @@ The sample code is fuckingly difficult to read and maintain. I rewrote it using 
 ```
 - **Node.js Environment**: A Node.js environment is required to run the server-side components.
 
-## Project Setup
-
-To get the project up and running, follow these steps:
-
-```sh
-cd ./shoppingwebvue
-npm install
-npm start
-```
-
-This will install all the necessary dependencies and start the development server and back-end server for the ShoppingWeb application.
 
 
 ## Secondary Development
