@@ -56,6 +56,9 @@
     margin-top: 1rem;
 }
 
+.container {
+    padding-bottom: 20px;
+}
 
 .key-points {
     font-size: 1.2em;

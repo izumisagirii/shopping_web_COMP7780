@@ -27,7 +27,7 @@
                         <router-link class="nav-link" to="/login">Login</router-link>
                     </li>
                     <li class="nav-item" v-if="loggedIn">
-                        <a class="nav-link" href="#" @click="logout">logout: {{ username }}</a>
+                        <a class="nav-link" href="#" @click="logout">Logout: {{ username }}</a>
                     </li>
                 </ul>
             </div>
@@ -36,7 +36,7 @@
     <header class="text-center bg-primary text-white py-3">
         <!-- <img src="../assets/cs_logo.png" alt="Logo" class="mx-auto d-block" style="width:300px; height:100px;"> -->
         <h1>COMP 7780 Special Topics in Knowledge and Information Management</h1>
-        <h2>Team no. 00, Team Name: HKBU team</h2>
+        <h2>Team no. 14, Team Name: H2O team</h2>
         <!-- <img src="../assets/cs_logo.png" alt="CS Logo" class="mx-auto d-block my-4" style="width:300px; height:200px;"> -->
     </header>
 </template>

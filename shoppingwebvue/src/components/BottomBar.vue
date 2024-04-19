@@ -14,24 +14,39 @@
                             <tr>
                                 <th scope="col">Name</th>
                                 <th scope="col">ID</th>
-                                <th scope="col">Role</th>
+                                <!-- <th scope="col">Role</th> -->
                             </tr>
                         </thead>
                         <tbody class="bg-light">
                             <tr>
-                                <td>xsxs</td>
-                                <td>123456</td>
-                                <td>vfvfv</td>
+                                <td> Li Wentao </td>
+                                <td>23459123</td>
+                                <!-- <td>vfvfv</td> -->
                             </tr>
                             <tr>
-                                <td>cdcd</td>
-                                <td>234567</td>
-                                <td>vfvfvfv</td>
+                                <td> Cui Yongheng </td>
+                                <td>23466642</td>
+                                <!-- <td>vfvfvfv</td> -->
                             </tr>
                             <tr>
-                                <td>vfvfv</td>
-                                <td>345678</td>
-                                <td>vfvbt</td>
+                                <td> He Chuangyu </td>
+                                <td>23431814</td>
+                                <!-- <td>vfvbt</td> -->
+                            </tr>
+                            <tr>
+                                <td> Wang Zishen </td>
+                                <td>23466618</td>
+                                <!-- <td>vfvbt</td> -->
+                            </tr>
+                            <tr>
+                                <td> Zeng Haomin </td>
+                                <td>23418281</td>
+                                <!-- <td>vfvbt</td> -->
+                            </tr>
+                            <tr>
+                                <td> Liu Haifeng </td>
+                                <td>23455748</td>
+                                <!-- <td>vfvbt</td> -->
                             </tr>
                             <!-- more -->
                         </tbody>
@@ -40,7 +55,7 @@
                 <div class="col-md-4">
                     <h5>Contact us</h5>
                     <p>email xxxxxxxx</p>
-                    <a href="https://github.com/xxxx-group" class="github-link">GitHub</a>
+                    <a href="https://github.com/izumisagirii/shopping_web_COMP7780" class="github-link">GitHub</a>
                 </div>
             </div>
             <div class="row">

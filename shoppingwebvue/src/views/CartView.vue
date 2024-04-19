@@ -72,7 +72,8 @@ export default {
             // amout
             const totalAmount = this.cartItems.reduce((total, item) => {
                 return total + (item.cart_qty * item.cart_price);
-            }, 0);
+            }, 0).toFixed(2);
+
 
             // pay
             const user = this.user.cust_username;
@@ -141,5 +142,9 @@ export default {
     margin-bottom: 1rem;
     color: #333;
     text-align: left;
+}
+
+.container {
+    padding-bottom: 20px;
 }
 </style>
